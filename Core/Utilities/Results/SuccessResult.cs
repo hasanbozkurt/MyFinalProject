@@ -6,12 +6,12 @@ namespace Core.Utilities.Results
 {
     public class SuccessResult:Result
     {
-        public SuccessResult(string message) : base(true, message) 
+        public SuccessResult(string message) : base(true, message)
         {
 
         }
 
-        public SuccessResult(bool v, string v1) : base(true) 
+        public SuccessResult():base(true)
         {
 
         }
